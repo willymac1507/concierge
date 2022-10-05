@@ -1,0 +1,20 @@
+/*
+Theme Name: North Shore Child
+Theme URI: localhost:8888
+Description: Child theme of North Shore
+Author: Will McCloy
+Author URI: camel-case.co.uk
+Template: citylogic
+Version: 1.0
+*/
+
+@import url("../citylogic/style.css");
+@import url("../north-shore/style.css");
+
+.header-image .overlay .opacity h1 {
+    color: firebrick;
+}
+
+.team-gallery {
+    margin-bottom: 50px;
+}
