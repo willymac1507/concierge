@@ -11,10 +11,37 @@ Version: 1.0
 @import url("../citylogic/style.css");
 @import url("../north-shore/style.css");
 
+blockquote {
+    padding-top: 20px;
+}
+
 .header-image .overlay .opacity h1 {
     color: firebrick;
 }
 
 .team-gallery {
     margin-bottom: 50px;
+}
+
+#menu-main-nav {
+    display: flex;
+    justify-content: end;
+    width: 500px;
+}
+
+.will-content {
+    display: none;
+}
+
+.main-navigation ul.menu > li > a {
+    color: #5A5A5A;
+}
+
+.expandable {
+    transition: 500ms;
+}
+
+.expandable:hover {
+    transform: scale(1.1);
+    transition: 500ms;
 }

@@ -1,0 +1,15 @@
+/*
+Theme Name: concierge
+Theme URI: concierge:8888
+Description: child theme of colibri-wp
+Author: Will McCloy
+Author URI: camel-case.co.uk
+Template: colibri-wp
+Version: 1.0
+*/
+
+@import url("../colibri-wp/style.css");
+
+.about__quote {
+    color: firebrick;
+}
